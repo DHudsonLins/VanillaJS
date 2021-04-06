@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+	<style>
+		body{
+			background-color: #23a651;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="columns">
+		<div class="column is-half is-offset-one-quarter">
+		<div class="card">
+         <div class="card-image">
+           <figure class="image is-4by3">
+           <img src="download.JFIF" alt="Placeholder image">
+           </figure>
+          </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <figure class="image is-48x48">
+          <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/663569-tenis-de-mesa-ping-pong-gr%C3%A1tis-vetor.png" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="title is-4">Score Keeper</p>
+        <p class="subtitle is-6">Let's Play</p>
+      </div>
+    </div>
+  
+    <div class="content">
+      <h1><span id="p1">0</span> to <span id="p2">0</span></h1>
+<span>Playing up to: </span><select id="playto" class="select is-info is-small">
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+</select>
+<button id="p1Button" class="button is-link is-hovered is-small">+1 Player One</button>
+<button id="p2Button" class="button is-primary is-hovered is-small">+1 Player Two</button>
+<button id="resetButton" class="button is-danger is-rounded is-small">Reset</button>
+      <br>
+      <time datetime="2021-1-12">12:00 PM - 12 Jan 2021</time>
+    </div>
+  </div>
+</div>
+		</div>
+	</div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
